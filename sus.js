@@ -2,9 +2,10 @@ let things = ["w", "b", "q", "6"];
 
 function do_thing(array)
 {
-    array.array.forEach(element => {
-        print(element);
-    });
+    for(i=0; i<things.length; i++)
+    {
+        print(things[i] == "w" ? "aaaa" : things[i])
+    }
 }
 
 do_thing(things);
